@@ -1,0 +1,13 @@
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\bin\Debug\netcoreapp3.1\konzolna_aplikacija1.exe
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\bin\Debug\netcoreapp3.1\konzolna_aplikacija1.deps.json
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\bin\Debug\netcoreapp3.1\konzolna_aplikacija1.runtimeconfig.json
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\bin\Debug\netcoreapp3.1\konzolna_aplikacija1.runtimeconfig.dev.json
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\bin\Debug\netcoreapp3.1\konzolna_aplikacija1.dll
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\bin\Debug\netcoreapp3.1\konzolna_aplikacija1.pdb
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\obj\Debug\netcoreapp3.1\konzolna_aplikacija1.csprojAssemblyReference.cache
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\obj\Debug\netcoreapp3.1\konzolna_aplikacija1.csproj.CoreCompileInputs.cache
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\obj\Debug\netcoreapp3.1\konzolna_aplikacija1.AssemblyInfoInputs.cache
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\obj\Debug\netcoreapp3.1\konzolna_aplikacija1.AssemblyInfo.cs
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\obj\Debug\netcoreapp3.1\konzolna_aplikacija1.dll
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\obj\Debug\netcoreapp3.1\konzolna_aplikacija1.pdb
+C:\Users\Damjan\source\repos\konzolna_aplikacija1\konzolna_aplikacija1\obj\Debug\netcoreapp3.1\konzolna_aplikacija1.genruntimeconfig.cache

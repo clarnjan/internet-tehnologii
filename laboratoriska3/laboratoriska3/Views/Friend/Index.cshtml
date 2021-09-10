@@ -1,0 +1,61 @@
+﻿@model IEnumerable<laboratoriska3.Models.FriendModel>
+
+@{
+    ViewBag.Title = "Friend List";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" id="friendTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MestoZiveenje)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MestoZiveenje)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                <a class="btn-link delete" data-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@section scripts{
+    <script>
+        var table = $("#friendTable").DataTable();
+        $(".delete").click(function () {
+            var button = $(this);
+            bootbox.confirm("Dali sigurno sakate da go izbrishate prijatelot?", function (result) {
+                if (result) {
+                    $.ajax({
+                        method : "GET",
+                        url: "/Friend/Delete/" + button.attr("data-id"),
+                        success: function () {
+                            table.row(button.parents("tr")).remove().draw();
+                        }
+                    })
+                }
+            })
+        })
+        
+    </script>
+}
